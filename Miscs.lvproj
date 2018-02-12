@@ -10,9 +10,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Select Signals.vi" Type="VI" URL="../Select Signals.vi"/>
-		<Item Name="Selection.xctl" Type="XControl" URL="../Selection Folder/Selection.xctl"/>
-		<Item Name="test control.vi" Type="VI" URL="../test control.vi"/>
+		<Item Name="PMU Buffer" Type="Folder" URL="../PMU Buffer">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Signal Selector" Type="Folder" URL="../Signal Selector">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -23,7 +26,6 @@
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="PMU data buffer.lvlib" Type="Library" URL="../../../oscillation-monitoring/sources/support/libs/PMU Buffer/PMU data buffer.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
