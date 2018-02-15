@@ -6,5 +6,4 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Select Signals.vi" Type="VI" URL="../Select Signals.vi"/>
-	<Item Name="test control.vi" Type="VI" URL="../test control.vi"/>
 </Library>
